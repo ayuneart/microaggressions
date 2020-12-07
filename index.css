@@ -1,0 +1,1146 @@
+
+/* RESET CSS */
+/* http://meyerweb.com/eric/tools/css/reset/
+	 v2.0 | 20110126
+	 License: none (public domain)
+*/
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li, link,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed,
+	figure, figcaption, footer, header, hgroup,
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font: inherit;
+		color: inherit;
+		text-decoration: inherit;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure,
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	html, body {
+		font-family: 'Reem Kufi', sans-serif;
+		font-weight: normal;
+	}
+
+/* CUSTOM CODING */
+
+/* ----------------------------------------FOR MOBILE UP TO 380PX-----------------------------*/
+/* @media screen and  (max-width: 600px ) {
+	* {
+			box-sizing: border-box;
+	}
+	h1 {
+		font-size: 21.875vw;
+	}
+	h2{
+		font-size: 10vw;
+	}
+	h3 {
+		font-size: 6.875vw;
+	}
+	p {
+		font-size: 6.250vw;
+	}
+	button {
+		width: 100%;
+		height: 100%;
+		max-width: 400px;
+		margin: 0.2em auto;
+		max-height: 30px;
+		background: #FFFFFF;
+		border: 0px;
+		color: #5E6472;
+		border-radius: 20px;
+		font-family: 'Reem Kufi', sans-serif;
+		font-size: 20px;
+		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	}
+	button:hover {
+		text-decoration: none;
+		cursor: pointer;
+		color: #282B32;
+		box-shadow: inset 3px 5px 4px rgba(94, 100, 114, 0.5);
+		background: #FFFFFF;
+	}
+	img {
+		max-width: 100%;
+		background-repeat: no-repeat;
+	}
+		/* --------------------------- FOOTER --------------------------- */
+	footer {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: auto;
+		background-color: #5E6472;
+		color: #FFFFFF;
+		text-align: center;
+		}
+	.container {
+		display: flex;
+		flex-flow: row wrap;
+		overflow-x: hidden;
+		background-image: url(bg-mobile.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 100%;
+		height: 5047px;
+	}
+	.header {
+		width: 100%;
+		height: 327px;
+		background: #5E6472;
+		z-index: 1;
+	}
+	/* --------------------------- MENU --------------------------- */
+	/* CALL TO ACTION  */
+	.tys {
+		position: absolute;
+		width: 100%;
+		max-width: 112px;
+		background: #C4DFE8;
+		padding: 8px 13px;
+		left: 56%;
+		right: 3%;
+		font-size: 24px;
+		line-height: 36px;
+		text-align: center;
+		color: #000000;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		z-index: 2;
+	}
+	.tys:hover {
+		background-color: #FFFFFF;
+		cursor: pointer;
+		box-shadow: inset 3px 5px 4px rgba(94, 100, 114, 0.5);
+	}
+
+	/* “YOU'RE JUST SENSITIVE”*/
+	.titletext {
+		width: 100%;
+		position: absolute;
+		top: 108px;
+		font-size: 52px;
+		line-height: 100%;
+		color: #FFFFFF;
+		align-items: center;
+		text-align: center;
+	}
+	.menu {
+		margin-top: 230px;
+		padding-right: 84px;
+		padding-left: 84px;
+		min-width: 145px;
+		width: 100%;
+		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	}
+	.hero {
+		position: absolute;
+		top: 5.75%;
+		left: 0px;
+		background-image: url(arrowsmobile.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		width: 100vw;
+		height: 4%;
+		border-radius: 12.5vw;
+	}
+	.source1 {
+		/* Source: www.insidehighered.com */
+		position: absolute;
+		height: 18px;
+		left: 170px;
+		top: 494px;
+		font-size: 3.125vw;
+		text-decoration-line: underline;
+	}
+	/* --------------------------- SECTION 1 : WHAT IS A MICROAGGRESSION? ----------------------*/
+	/* definition container */
+
+	.deftitle-1{
+		/* What is a */
+		position: absolute;
+		width: 273px;
+		font-size: 68px;
+		line-height: 107.5%;
+		height: 74.87px;
+		left: 8px;
+		top: 525px;
+	}
+	.deftitle-2 {
+		/* Micro */
+		margin: auto;
+		max-width: 100%;
+		position: absolute;
+		left: 6px;
+		top: 625px;
+		width: 166px;
+		height: 61px;
+		font-size: 68px;
+		line-height: 0;
+		display: flex;
+		align-items: center;
+
+		}
+	.deftitle-3 {
+		/* aggression */
+		position: absolute;
+		max-width: 303px;
+		width: 100%;
+		height: 83px;
+		left: 6px;
+		top: 689px;
+		font-size: 68px;
+		line-height: 0px;
+		display: flex;
+		align-items: center;
+	}
+	.ma-bg1 {
+		/* behind micro */
+		left: 0px;
+		top: 665px;
+		width: 100%;
+		height: 100%;
+		max-width: 178px;
+		max-height: 16px;
+		background-color: #C4DFE8;
+		}
+	.ma-bg2 {
+		/* behind aggression */
+		left: 17px;
+		top: 746px;
+		max-height: 16px;
+		width: 100%;
+		height: 100%;
+		background-color: #C4DFE8;
+	}
+	.questionmark {
+		position: absolute;
+		width: 56.77px;
+		height: 97.09px;
+		left: 249.42px;
+		top: 613px;
+		font-size: 25vw;
+		display: flex;
+		align-items: center;
+		transform: rotate(22deg);
+	}
+	.def {
+		/* a comment or action... */
+		width: 100%;
+		height: 202px;
+		padding-right: 17px;
+		padding-left: 17px;
+		padding-top: 30px;
+		font-size: 22px;
+		line-height: 11vw;
+	}
+	.mwd {
+		/* - Merriam Webster Dictionary */
+		position: absolute;
+		width: 100%;
+		left: 12vw;
+		top: 1050px;
+		font-size: 21px;
+	}
+	.image2 {
+		position: absolute;
+		left: 0;
+		top: 20%;
+
+		background-image: url(microaggression-mobile.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 320px;
+		height: 355px;
+		height: auto;
+		max-height: 420px;
+		width: 100%;
+	}
+	.source2 {
+		/* Source: www.creativecircle.com */
+		position: absolute;
+		width: 100%;
+		height: 18px;
+		left: 150px;
+		top: 21vw;
+		text-decoration: underline;
+	}
+		/* QUOTES*/
+		/* “What are you?” */
+		.quote1 {
+			position: absolute;
+			left: 51px;
+			top: 1531px;
+			right: 23px;
+			min-width: 245px;
+			width: 80%;
+			height: auto;
+			min-height: 192px;
+			padding: 35px 25px 35px 25px;
+			color: #FFFFFF;
+			font-size: 243.75%;
+			border-radius: 20px;
+			background-color: #5e6472;
+			box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+			text-align: center;
+			line-height: 58px;
+			}
+		.triangle1 {
+			position: absolute;
+			left: 28px;
+			top: 1649px;
+			border-style: solid;
+			transform: matrix(-0.14, -0.99, 0.98, -0.17, 0, 0);
+			border-width: 30px 23px 0px 0;
+			border-color: transparent #5e6472 transparent transparent;
+			box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+			}
+		.quote2 {
+			position: absolute;
+			min-height: 232px;
+			left: 27px;
+			right: 42px;
+			top: 1773px;
+			font-size: 39px;
+			text-align: center;
+			line-height: 58px;
+			color: #FFFFFF;
+			padding: 35px 25px 35px 25px;
+			background-color: #5E6472;
+			border-radius: 20px;
+			box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+		}
+		.triangle2 {
+			position: absolute;
+			left: 280px;
+			top: 1899px;
+			border-style: solid;
+			transform: matrix(-0.14, -0.99, 0.98, -0.37, 0, 0);
+			display: block;
+			border-width: 30px 23px 0px 0;
+			border-color:  #5e6472 transparent transparent transparent;
+			box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+		}
+		/* --------------------------- WHO IS AFFECTED --------------------------- */
+		.who-container {
+			width: 290px;
+			height: 827px;
+		}
+		.who-title {
+			position: absolute;
+			max-width: 100%;
+			width: 218px;
+			height: 125px;
+			left: 53px;
+			top: 2064px;
+			color: white;
+			border-radius: 20px;
+			background-color: #5E6472;
+			text-align: center;
+			font-size: 39px;
+			z-index: 1;
+		}
+		.who-line {
+			position: absolute;
+			left: 35%;
+			width: 30%;
+			height: 3px;
+			align-items: center;
+			z-index: 2;
+			background-color: #A0CCDA;
+			max-width: 56.5px;
+		}
+		.who-content {
+			position: absolute;
+			height: 765px;
+			left: 15px;
+			right: 15px;
+			top: 2126px;
+			padding:  95px 13px 228px 13px;
+			background-color: #FFFFFF;
+			font-size: 20px;
+			line-height: 30px;
+			box-shadow: inset 0px 4px 20px rgba(94, 100, 114, 0.5);
+			border-radius: 20px;
+			align-items: center;
+			}
+		.image3 {
+			position: absolute;
+			left: 60px;
+			top: 2683px;
+			width: 199px;
+			height: 144px;
+			object-fit: cover;
+			border-radius: 81px;
+			background-image: url(image3.jpeg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			align-items: center;
+		}
+		.source3 {
+			/* Source: Jennifer Anderson www.stories.marquette.edu/social-class-microaggressions-in-higher-ed-17ac59fc4504 */
+			position: absolute;
+			height: 39px;
+			font-size: 9px;
+			left: 27px;
+			right: 28px;
+			top: 2827px;
+			line-height: 12px;
+			text-align: right;
+		}
+		/* --------------------------- WHAT ARE THE EFFECTS --------------------------- */
+		.what-container {
+			width: 100%;
+			min-width: 290px;
+			height: 720px;
+		}
+		.what-title {
+			position: absolute;
+			left: 51px;
+			right: 51px;
+			top: 2920px;
+			min-width: 218px;
+			height: 125px;
+			background-color: #5E6472;
+			border-radius: 20px;
+			color: #FFFFFF;
+			line-height: 50px;
+			padding-top: 20px;
+			padding-bottom:20px;
+			padding-right: 28px;
+			padding-left: 28px;
+			font-size: 33px;
+			text-align: center;
+			z-index:1;
+		}
+		.what-line {
+			position: absolute;
+			left: 35%;
+			width: 30%;
+			height: 3px;
+			align-items: center;
+			z-index: 2;
+			background-color: #A0CCDA;
+			max-width: 56.5px;
+			}
+		.what-content {
+			position: absolute;
+			height: 706px;
+			left: 15px;
+			right: 15px;
+			top: 2983px;
+			background-color: white;
+			border-radius: 20px;
+			box-shadow: inset 0px 4px 20px rgba(94, 100, 114, 0.5);
+			padding-right: 13px;
+			font-size: 20px;
+			line-height: 30px;
+			padding-left: 13px;
+			padding-bottom: 353px;
+			padding-top: 83px;
+		}
+		.lrhsource {
+			display: flex;
+			margin-top: 20px;
+			margin-left: 13px;
+			font-size: 20px;
+			width: 264px;
+			height: 34.04px;
+			left: 32px;
+		}
+		.image4 {
+			background-image: url(handonhead.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: contain;
+			width: 256px;
+			height: 276px;
+		}
+		.source4 {
+			/* Source: https://nathatshjalpen.se/en/a/microaggressions/ */
+			width: 264px;
+			height: 34px;
+			text-decoration: underline;
+			font-size: 13px;
+			line-height: 19px;
+		}
+		/* --------------------------- HOW TO HELP --------------------------- */
+		.how-container {
+			width: 290px;
+			height: 741px;
+		}
+		.how-title {
+			position: absolute;
+			min-width: 220px;
+			height: 125px;
+			left: 51px;
+			right: 51px;
+			top: 3714px;
+			padding: 44px 30px 44px 29px;
+			color: #FFFFFF;
+			background-color: #5E6472;
+			border-radius: 20px;
+			z-index: 1;
+			text-align: center;
+		}
+		.how-line {
+			position: absolute;
+			left: 35%;
+			width: 30%;
+			height: 3.33px;
+			align-items: center;
+			z-index: 2;
+			background: #A0CCDA;
+		}
+		.how-content {
+			position: absolute;
+			left: 15px;
+			right: 15px;
+			top: 3781px;
+			min-width: 290px;
+			height: 674px;
+			padding: 58px 11px 43px;
+			background: #FFFFFF;
+			box-shadow: inset 0px 4px 20px rgba(94, 100, 114, 0.5);
+			border-radius: 20px;
+		}
+		.how-action {
+			font-size: 40px;
+			text-align: center;
+			left: 72px;
+			align-items: center;
+		}
+		.method {
+			/* The A.C.T.I.O.N. Method */
+				display: block;
+				font-size: 21px;
+				text-align: center;
+		 }
+		 .by {
+			position: absolute;
+			width: 269px;
+			top: 3949px;
+			height: 24px;
+			font-size: 17px;
+			line-height: 141%;
+			align-items: center;
+		 }
+		 .action {
+			 list-style: decimal;
+			 list-style-position: outside;
+			 font-size: 21px;
+			 line-height: 31px;
+			 width: 100%;
+			 min-width: 272px;
+			 height: 433px;
+		 }
+		 .circle {
+			display: flex;
+			left: 34px;
+			right: 34px;
+			background-image: url(bullet-image.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			width: 33px;
+			height: 33px;
+		 }
+		/* BOTTOM - TELL YOUR STORY */
+			.contentbg {
+				position: absolute;
+				display: inline;
+				width: 293px;
+				height: 497px;
+				left: 15px;
+				right: 15px;
+				top: 4475px;
+				background: #FFFFFF;
+				box-shadow: inset 0px 4px 20px rgba(94, 100, 114, 0.5);
+				border-radius: 20px;
+			}
+			.question {
+				width: 270.77px;
+				height: 99.62px;
+				font-size: 28px;
+			}
+			.submit {
+				width: 144.48px;
+				height: 30px;
+				margin-top: 23px;
+				filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+				}
+			.linedark {
+				position: absolute;
+				display: flex;
+				z-index: 2;
+				width: 100%;
+				max-width: 188.62px;
+				height: 6px;
+				left: 67px;
+				top: 4665px;
+				background-color: #5E6472;
+			}
+			.underline {
+				text-decoration: underline;
+			}
+			.top {
+				background-color: #5E6472;
+				color: #FFFFFF;
+				position: sticky;
+				font-size: 1.4rem;
+				text-align: center;
+				width: 2.5rem;
+				height: 2.5rem;
+				border-radius: 100%;
+				padding: 0.15rem;
+			}
+	} */
+/* ----------------------------------------FOR DESKTOP MORE THAN 521PX-----------------------------*/
+@media screen and (min-width: 601px) {
+	* {
+			box-sizing: border-box;
+	}
+	h1 {
+		font-size: 7vw;
+		line-height: 200.5%;
+		}
+	h2{
+		font-size: 55px;
+	}
+	h3 {
+		font-size: 3vw;
+	}
+	p {
+		font-size: 21px;
+	}
+	button {
+		width: 100%;
+		height: 100%;
+		max-width: 400px;
+		margin: 0.2em auto;
+		max-height: 30px;
+		background: #FFFFFF;
+		border: 0px;
+		color: #5E6472;
+		border-radius: 20px;
+		font-family: 'Reem Kufi', sans-serif;
+		font-size: 20px;
+		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	}
+	button:hover {
+		text-decoration: none;
+		cursor: pointer;
+		color: #282B32;
+		box-shadow: inset 3px 5px 4px rgba(94, 100, 114, 0.5);
+		background: #FFFFFF;
+	}
+
+		/* --------------------------- FOOTER --------------------------- */
+	footer {
+		left: 0;
+		bottom: 0;
+		position: fixed;
+		max-height: 40px;
+		width: 100%;
+		background-color: #5E6472;
+		color: #FFFFFF;
+		text-align: center;
+		}
+	.container {
+		display: flex;
+		flex-flow: row wrap;
+		overflow-x: hidden;
+		background-image: url(bg-desktop.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 100%;
+		left: 132px;
+		right: 132px;
+		height: 5109px;
+	}
+	.header {
+		width: 100%;
+		max-height: 119px;
+		background: #5E6472;
+		z-index: 1;
+	}
+	/* --------------------------- MENU --------------------------- */
+	/* CALL TO ACTION  */
+	.tys {
+		position: absolute;
+		min-width: 137px;
+		background: #C4DFE8;
+		padding: 16px 11px 16px 11px;
+		right: 10%;
+		left: 80%;
+		font-size: 24px;
+		line-height: 36px;
+		text-align: center;
+		color: #000000;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		z-index: 2;
+	}
+	.tys:hover {
+		background-color: #FFFFFF;
+		cursor: pointer;
+		box-shadow: inset 3px 5px 4px rgba(94, 100, 114, 0.5);
+	}
+
+	/* “YOU'RE JUST SENSITIVE”*/
+	.titletext {
+		position: absolute;
+		width: 100%;
+		padding: .2%;
+		height: 88px;
+		font-size: 52px;
+		line-height: 78px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	.menu {
+		margin-top: 0px;
+		width: 100%;
+		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	}
+	.stories {
+		position: absolute;
+		display: inline-block;
+		min-width: 50%;
+		min-height: 50px;
+		left: 0px;
+		top: 88px;
+		background-color: #5E6472;
+		border-radius: 0;
+		border-style: solid;
+		border-width: thin;
+		color: #FFFFFF;
+		border-color: #FFFFFF;
+	}
+	.about {
+		position: absolute;
+		min-width: 50%;
+		min-height: 50px;
+		left: 50%;
+		top: 88px;
+		background-color: #5E6472;
+		border-radius: 0;
+		border-style: solid;
+		border-width: thin;
+		color: #FFFFFF;
+		border-color: #FFFFFF;
+	}
+	.hero {
+		position: absolute;
+		width: 85%;
+		height: 403px;
+		left: 9%;
+		border-radius: 139px;
+		background-image: url(arrows-desktop.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+	.source1 {
+		/* Source: www.insidehighered.com */
+		position: absolute;
+		height: 18px;
+		left: 70%;
+		top: 410px;
+		font-size: 15px;
+		text-decoration-line: underline;
+	}
+	/* --------------------------- SECTION 1 : WHAT IS A MICROAGGRESSION? ----------------------*/
+	/* definition container */
+
+	.deftitle-1 {
+		/* What is a */
+		position: absolute;
+		height: 98px;
+		left: 20%;
+		top: 419px;
+		line-height: 107.5%;
+	}
+	.deftitle-2 {
+		/* Micro */
+		position: absolute;
+		left: 20%;
+		top: 11%;
+		padding: 1%;
+		line-height: 0px;
+		}
+	.deftitle-3 {
+		/* aggression */
+		position: absolute;
+		padding: 1%;
+		left: 36%;
+		top: 11%;
+		line-height: 0px;
+	}
+	.ma-bg1 {
+		/* behind micro */
+		position: absolute;
+		width: 2400%;
+		height: 22px;
+		top: 11%;
+		background-color: #C4DFE8;
+		}
+	.ma-bg2 {
+		/* behind micro */
+		position: absolute;
+		top: 11%;
+		}
+	.questionmark {
+		position: absolute;
+		left: 67%;
+		top: 11%;
+		line-height: 0px;
+	}
+	.def {
+		/* a comment or action... */
+		position: absolute;
+		width: 65%;
+		left: 18%;
+		display: block;
+		padding-top: 12px;
+		top: 634px;
+		font-size: 27px;
+		line-height: 40px;
+	}
+	.mwd {
+		/* - Merriam Webster Dictionary */
+		position: absolute;
+		padding: 10px;
+		width: 634px;
+		height: 43px;
+		left: 38%;
+		top: 764px;
+		right: 40%;
+		text-align: right;
+	}
+	.image2 {
+		position: absolute;
+		width: 80%;
+		height: 282px;
+		left: 131px;
+		top: 832px;
+		border-radius: 283px;
+		background-image: url(microaggression-desktop.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		border-radius: 283px;
+	}
+	.source2 {
+		/* Source: www.creativecircle.com */
+		position: absolute;
+		width: 211px;
+		height: 18px;
+		left: 719px;
+		left: 70%;
+		top: 1130px;
+		font-size: 15px;
+		line-height: 18px;
+		text-decoration: underline;
+	}
+		/* QUOTES*/
+		/* “What are you?” */
+		.quote1 {
+			position: absolute;
+			width: 70%;
+			height: 209px;
+			left: 214.56px;
+			right: 133px;
+			top: 1208px;
+			background-color: #5E6472;
+			border-radius: 20px;
+			line-height: 58px;
+			font-size: 55px;
+			padding: 63px 139px  63px 139px ;
+			color: #FFFFFF;
+			box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+			text-align: center;
+			}
+		.triangle1 {
+			display: flex;
+			position: absolute;
+			left: 14.2%;
+			top: 25.5%;
+			border-style: solid;
+			transform: matrix(-0.33, -0.89, 1.06, -0.07, 0, 0);
+			border-width: 115px 108px 21px 0;
+			border-color: transparent #5e6472 transparent transparent;
+			box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+			}
+		.quote2 {
+			position: absolute;
+			width: 70%;
+			height: 209px;
+			left: 137px;
+			right: 203.2px;
+			top: 1491px;
+			line-height: 82px;
+			font-size: 55px;
+			text-align: center;
+			color: #FFFFFF;
+			padding: 40px 148px 40px 148px;
+			background-color: #5E6472;
+			border-radius: 20px;
+			box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+		}
+		.triangle2 {
+			width: 28.76px;
+			height: 74.4px;
+			left: 1200px;
+			top: 1600px;
+			right: 133px;
+			position: absolute;
+			border-style: solid;
+			transform: matrix(-0.41, -0.84, -1.05, 0.24, 0, 0);
+			border-width: 110px 18px 0px 100px;
+			border-color:  #5e6472 transparent transparent transparent;
+			box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+		}
+		.underline {
+			text-decoration: underline;
+		}
+		/* --------------------------- WHO IS AFFECTED --------------------------- */
+		.who-container {
+			width: 290px;
+			height: 827px;
+		}
+		.who-title {
+			position: absolute;
+			width: 260px;
+			height: 387px;
+			left: 8%;
+			top: 1935px;
+			text-align: center;
+			background-color: #5E6472;
+			box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.5);
+			border-radius: 20px;
+			padding:  113px 15px 113px 15px;
+			font-size: 55px;
+			color: #FFFFFF;
+			z-index: 1;
+		}
+		.who-line {
+			align-items: center;
+			max-width: 190px;
+			height: 10px;
+			left: 169px;
+			z-index: 1;
+			top: 2123px;
+			background-color: #A0CCDA;
+		}
+		.who-content {
+			position: absolute;
+			width: 63%;
+			top: 1794px;
+			height: 700px;
+			left: 269px;
+			border-radius: 20px;
+			font-size: 21px;
+			background-color: #FFFFFF;
+			padding: 24px 77px 196px  160px;
+			line-height: 31px;
+
+			box-shadow: inset 0px 4px 10px #5E6472;
+			}
+		.image3 {
+			width: 275px;
+			position: absolute;
+			max-width: 100%;
+			top: 2188px;
+			height: 230px;
+			display: block;
+			left: 580px;
+			border-radius: 115px;
+			background-position: center;
+			background-image: url(image3.jpeg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.source3 {
+			/* Source: Jennifer Anderson www.stories.marquette.edu/social-class-microaggressions-in-higher-ed-17ac59fc4504 */
+			position: absolute;
+			height: 34px;
+			text-decoration: underline;
+			width: 100%;
+			left: 460px;
+			top: 2430px;
+	}
+	/* --------------------------- WHAT ARE THE EFFECTS --------------------------- */
+	.what-container {
+		width: 740px;
+		height: 681px;
+	}
+	.what-title {
+		position: absolute;
+		text-align: center;
+		width: 260px;
+		height: 387px;
+		left: 60%;
+		top: 2792px;
+		color: #FFFFFF;
+		padding: 67px 8px 84px 8px;
+		background-color: #5E6472;
+		border-radius: 20px;
+		z-index: 1;
+	}
+	.what-line {
+		position: absolute;
+		width: 185.79px;
+		height: 10px;
+		left: 659px;
+		top: 2964px;
+		z-index: 1;
+		background-color: #A0CCDA;
+	}
+	.what-content {
+		position: absolute;
+		width: 63%;
+		height: 681px;
+		left: 142px;
+		top: 2645px;
+		background: #FFFFFF;
+		box-shadow: inset 0px 4px 10px #686D7A;
+		border-radius: 20px;
+		padding: 28px 175px 493px 63px;
+	}
+	.lrhsource {
+		position: absolute;
+		width: 276.01px;
+		height: 32px;
+		left: 301.36px;
+		top: 199px;
+	}
+	.image4 {
+		position: absolute;
+		left: 234px;
+		width: 324.3px;
+		height: 340px;
+		top: 250px;
+		background-image: url(handonhead.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	.source4 {
+		position: absolute;
+		height: 25px;
+		left: 230px;
+		top: 611px;
+		text-decoration: underline;
+	}
+	.how-title {
+		position: absolute;
+		width: 260px;
+		height: 387px;
+		text-align: center;
+		left: 8%;
+		top: 3638px;
+		z-index: 2;
+		color: #FFFFFF;
+		background-color: #5E6472;
+		box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.5);
+		border-radius: 20px;
+		padding: 105px 58px 116px 58px;
+	}
+	.how-line {
+		position: absolute;
+		width: 189.18px;
+		height: 10px;
+		left: 18.4%;
+		top: 189px;
+		bottom: 188px;
+		background: #A0CCDA;
+	}
+
+	.how-container {
+		width: 740px;
+		height: 681px;
+		left: 142px;
+		top: 842px;
+	}
+	.how-content {
+		position: absolute;
+		width: 63%;
+		height: 681px;
+		left: 272px;
+		top: 3487px;
+		background: #FFFFFF;
+		padding: 35px 30px 73px 175px;
+		box-shadow: inset 0px 4px 20px #5E6472;
+		border-radius: 20px;
+	}
+	.how-action {
+		position: absolute;
+		top: 37px;
+		left: 40%;
+	}
+	.method {
+		position: absolute;
+		width: 354px;
+		height: 48px;
+		left: 35%;
+		top: 121px;
+		font-size: 34px;
+	}
+ .by {
+	 position: absolute;
+	 top: 200px;
+	 left: 35%;
+	 font-size: 21px;
+	 right: 101px;
+	 }
+	.action {
+		position: absolute;
+		width: 406px;
+		height: 566px;
+		left: 35%;
+		top: 198px;
+		font-size: 21px;
+		line-height: 100%;
+	}
+	.contentbg {
+		position: absolute;
+		height: 606px;
+		left: 17.5%;
+		top: 4334px;
+		background: #FFFFFF;
+		box-shadow: inset 0px 4px 10px rgba(94, 100, 114, 0.5);
+		border-radius: 20px;
+		padding: 390px 38px 116px 38px;
+		font-size: 99px;
+	}
+}

@@ -1,0 +1,208 @@
+/*--------------- GLOBAL CSS -------------*/
+/* http://meyerweb.com/eric/tools/css/reset/
+	 v2.0 | 20110126
+	 License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li, link,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	color: inherit;
+	text-decoration: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CUSTOM CODING */
+html, body {
+	font-family: 'Reem Kufi', sans-serif;
+	font-weight: 400;
+	width: 100%;
+	height: 812px;
+	overflow: auto;
+	background-image: url(aboutbackground.png);
+  background-size: cover;
+	background-repeat: no-repeat;
+}
+/* mobile */
+[class*="col-"] {
+  width: 100%;
+}
+		}
+/* Desktop */
+@media only screen and (min-width: 320px){
+  .container {
+    position: relative;
+    max-height: 812px;
+		width: 320px;
+}
+		}
+*{
+  box-sizing: border-box;
+}
+
+button {
+	width: 145px;
+	height: 30px;
+	background: #FFFFFF;
+	border: 0px;
+	color: #5E6472;
+	border-radius: 20px;
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	line-height: 35px;
+}
+button:hover {
+	text-decoration: none;
+	cursor: pointer;
+	color: #282B32;
+	box-shadow: inset 3px 5px 4px rgba(94, 100, 114, 0.5);
+	background: #FFFFFF;
+}
+.header {
+  position: absolute;
+  background: #5E6472;
+  width: 100%;
+  height: 50px;
+}
+.titletext {
+  width: 100%;
+  height: 23px;
+  left: 35px;
+  top: 9px;
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+.tys {
+  position: absolute;
+  text-align: center;
+  right: 17px;
+  left: 200px;
+  height: 60px;
+  width: 103px;
+  top: 38px;
+  bottom: 714px;
+  font-size: 19px;
+  line-height: 22px;
+  color: #000000;
+  background: #C4DFE8;
+  padding-left:18px;
+  padding-top: 8px;
+  display: flex;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.tys:hover {
+  color: #FFFFFF;
+	background-color: #5E6472;
+	cursor: pointer;
+  box-shadow: inset 0px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.about {
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	left: 86px;
+	right: 90px;
+	top: 80px;
+	font-size: 57px;
+}
+.line {
+	position: absolute;
+	width: 116px;
+	height: 8px;
+	left: 102px;
+	top: 153px;
+	background: #5E6472;
+}
+.contentbg {
+	position: absolute;
+	width: 283px;
+	max-width: 100%;
+	height: 482px;
+	left: 19px;
+	top: 169px;;
+	background: #FFFFFF;
+	box-shadow: inset 0px 4px 20px rgba(94, 100, 114, 0.5);
+	border-radius: 20px;
+}
+.content {
+	position: absolute;
+	width: 232px;
+	height: 427px;
+	left: 25px;
+	top: 32px;
+	font-size: 17px;
+	line-height: 20px;
+	/* or 118% */
+	align-items: center;
+	color: #000000;
+}
+.menu {
+	width: 143px;
+	height: 79px;
+}
+.home {
+	position: absolute;
+	left: 88px;
+	top: 676px;
+	}
+.stories {
+	position: absolute;
+	left: 88px;
+	top: 724px;
+}
+.footer {
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 32px;
+	top: 780px;
+	background: #5E6472;
+}
+.footertext {
+	position: absolute;
+	height: 15px;
+	font-size: 11px;
+	left: 109px;
+	line-height: 16px;
+	text-align: center;
+	color: #FFFFFF;
+	align-items: center;
+}

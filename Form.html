@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
+    <!-- CSS Files -->
+    <link rel='stylesheet' type='text/css' href='Form.css'>
+    <title>
+       Form
+    </title>
+  </head>
+    <body>
+      <div class="header">
+        <h1>
+          "you're just sensitive"
+        </h1>
+      </div>
+      <div class="tys">
+        <a href="tellyourstory.html">Tell your <br> story</a>
+      </div>
+      <div class="container">
+          <form class="formfield">
+           What is your name? <input type="text" class="name" placeholder="First Last"> <br>
+            What is your email? <input type="text" class="email" placeholder="email@gmail.com"> <br>
+            Write your story or a quote here. <textarea class="story" rows="5" cols="40"></textarea>
+        <div class="radio-group">
+          Would you like to be Anonymous?
+          <input type="radio" class="radio-input" value="Y">Yes
+          <input type="radio" class="radio-input"  value="N">No
+        </div>
+        <div class="dropdown">
+          <label for="dropdown">One last thing... How often do you experience microaggressions?</label>
+          <select name="frequency">
+            <option value="never">Never</option>
+            <option value="rare">Rarely</option>
+            <option value="monthly">A few times a month</option>
+            <option value="daily">Daily</option>
+          </select>
+        </div>
+        <input type="submit">
+      </form>
+  </div>
+  </body>
+</html>
